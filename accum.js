@@ -9,7 +9,7 @@
         for (var i = 0; i < input.length; i++) {
         str = str + input[i].toUpperCase();
         rep = i + 1;
-        for (var x = 0; x < rep; x++) {
+        for (var x = 1; x < rep; x++) {
 
         	str = str + input[i].toLowerCase();
         	}
